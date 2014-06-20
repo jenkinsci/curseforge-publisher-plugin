@@ -1,0 +1,31 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    Creates a text field that shows the value of the "name" property.
+    When submitted, it will be passed to the corresponding constructor parameter.
+  -->
+  <f:entry title="Game" field="game">
+    <f:textbox default="kerbal" />
+  </f:entry>
+  <f:entry title="API Key" field="apiKey">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Mod ID" field="modId">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Changelog" field="changelog">
+    <f:textbox />
+  </f:entry>
+  <f:entry name="release" title="Release type" field="release">
+    <select name="release">
+        <option value="release">Release</option>
+        <option value="beta">Beta</option>
+        <option value="alpha">Alpha</option>
+    </select>
+  </f:entry>
+  <f:entry title="Supported Game Versions" field="versions">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="File" field="file">
+    <f:textbox />
+  </f:entry>
+</j:jelly>
