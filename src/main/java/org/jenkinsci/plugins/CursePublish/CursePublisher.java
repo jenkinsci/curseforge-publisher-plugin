@@ -18,10 +18,9 @@ import java.util.Scanner;
 import javax.servlet.ServletException;
 
 import jenkins.util.VirtualFile;
-import ksp.curse.Uploader;
-import ksp.curse.Uploader.ReleaseType;
 import net.sf.json.JSONObject;
 
+import org.jenkinsci.plugins.CursePublish.Uploader.ReleaseType;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
 import org.kohsuke.stapler.StaplerRequest;
@@ -89,9 +88,9 @@ public class CursePublisher extends Publisher {
 					+ val.substring(1));
 		}
 
-		Scanner scanner = new Scanner(file.open()).useDelimiter("\\A");
+		Scanner scanner = new Scanner(file.open());
 		try {
-			return scanner.next();
+			return scanner.useDelimiter("\\A").next();
 		} finally {
 			scanner.close();
 		}
