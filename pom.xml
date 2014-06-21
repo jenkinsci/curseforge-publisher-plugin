@@ -10,9 +10,26 @@
 	</parent>
 
 	<groupId>org.jenkins-ci.plugins</groupId>
-	<artifactId>CursePublish</artifactId>
+	<artifactId>curseforge-publisher</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>hpi</packaging>
+	<name>Curseforge Publisher plugin</name>
+	<description>Uploads build artifacts to Curseforge</description>
+	<url>https://wiki.jenkins-ci.org/display/JENKINS/Curseforge+Publisher+Plugin</url>
+	
+	<scm>
+		<connection>scm:git:git://github.com/jenkinsci/curseforge-publisher-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:jenkinsci/curseforge-publisher-plugin.git</developerConnection>
+		<url>http://github.com/jenkinsci/curseforge-publisher-plugin</url>
+	</scm>
+	
+	<developers>
+		<developer>
+			<id>r04r</id>
+			<name>r04r</name>
+			<email>r04r@minichan.org</name>
+		</developer>
+	</developers>
 
 	<licenses>
 		<license>
