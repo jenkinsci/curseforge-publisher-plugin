@@ -19,7 +19,7 @@
 	
 	<scm>
 		<connection>scm:git:git://github.com/jenkinsci/curseforge-publisher-plugin.git</connection>
-		<developerConnection>scm:git:git@github.com:jenkinsci/curseforge-publisher-plugin.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/jenkinsci/curseforge-publisher-plugin.git</developerConnection>
 		<url>http://github.com/jenkinsci/curseforge-publisher-plugin</url>
 	</scm>
 	
@@ -27,7 +27,7 @@
 		<developer>
 			<id>r04r</id>
 			<name>r04r</name>
-			<email>r04r@minichan.org</name>
+			<email>r04r@minichan.org</email>
 		</developer>
 	</developers>
 
