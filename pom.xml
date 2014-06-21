@@ -10,7 +10,7 @@
 
 	<groupId>org.jenkins-ci.plugins</groupId>
 	<artifactId>curseforge-publisher</artifactId>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 	<name>Curseforge Publisher plugin</name>
 	<description>Uploads build artifacts to Curseforge</description>
@@ -20,7 +20,7 @@
 		<connection>scm:git:git://github.com/jenkinsci/curseforge-publisher-plugin.git</connection>
 		<developerConnection>scm:git:https://github.com/jenkinsci/curseforge-publisher-plugin.git</developerConnection>
 		<url>http://github.com/jenkinsci/curseforge-publisher-plugin</url>
-	  <tag>curseforge-publisher-1.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	
 	<developers>
